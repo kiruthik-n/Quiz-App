@@ -1,0 +1,105 @@
+.abtli{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 150px auto;
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 400px;
+   
+}
+.qnbdy{
+    background-color: antiquewhite;
+   
+}
+.container{
+    display: block;
+    background-color: rgba(0, 0, 0, 1);
+ margin-left: auto;
+ margin-right: auto;
+    text-align: center;
+    width: 500px;
+    border-radius: 15px;
+    height: 500px;
+    
+}
+.qntit{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: large;
+}
+.qns {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 10%;
+    border-radius: 2px;
+}
+.option {
+    display: block;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    border: 2px;
+    
+    
+
+}
+label{
+    font-weight: bold;
+}
+label:hover{
+    font-size: x-large;
+}
+
+
+#result{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    width: 500px;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.opt1,.opt2,.opt3,.opt4{
+    background-color:white;
+    width: 80%;
+    height: 35px;
+    margin-left: auto ;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.design{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    display:block;
+    block-size: auto;
+    margin: 150px auto;
+}
+/*#actual{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+
+}*/
