@@ -1,3 +1,4 @@
+document.getElementById("submit").disabled=true;
 let questions=new Array("Who Invented JavaScript ?","Which one of the following also known as Conditional Expression ?","The function and  var are known as ?","How can a datatype be declared to be a constant type ?","When an operator’s value is NULL, the typeof returned by the unary operator is ?");
 let options=new Array("Douglas Crockford","Sheryl Sandberg","Brendan Eich","Kiruthik","Alternative to if-else","Switch statement","If-then-else statement","immediate if","Keywords","Data types","Declaration statements","Prototypes","const","var","const","let","boolean","undefined","integer","object");
 let answers=new Array('c','d','c','c','d');
@@ -33,7 +34,9 @@ j++;
         
     }
  });
- 
+ if(i==5){
+    document.getElementById("submit").disabled=false;
+ }
 
 };
 let x=0;
